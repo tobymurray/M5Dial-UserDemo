@@ -105,15 +105,15 @@ struct MoreMenuRender_CB_t : public SMOOTH_MENU::SimpleMenuCallback_t
 
 
             /* Draw selector in difference stack */
-            _canvas->fillSmoothRoundRectInDifference(
-                selector.x,
-                // selector.x + (menuItemList[selector.targetItem]->width - selector.width) / 2,
-                menu_start_y_offset + (menuItemList[selector.targetItem]->height - selector.height) / 2,
-                selector.width,
-                selector.height,
-                5,
-                MORE_MENU_COLOR_SELECTOR
-            );
+            // _canvas->fillSmoothRoundRectInDifference(
+            //     selector.x,
+            //     // selector.x + (menuItemList[selector.targetItem]->width - selector.width) / 2,
+            //     menu_start_y_offset + (menuItemList[selector.targetItem]->height - selector.height) / 2,
+            //     selector.width,
+            //     selector.height,
+            //     5,
+            //     MORE_MENU_COLOR_SELECTOR
+            // );
 
     
 
